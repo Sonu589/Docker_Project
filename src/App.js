@@ -4,7 +4,7 @@ import axios from 'axios';
 import React,{useState,useEffect} from "react"
 import 'animate.css';
 function App() {
-  const apikey="9bc35b7cd2b472c67e83b5ec1e8f0b3c"
+  const apikey="Add_Your_Own_Api_Key"
   const [data,setData]=useState({});
   const [input,setInput]=useState("")
   const getWetherDetails=(cityName)=>{
